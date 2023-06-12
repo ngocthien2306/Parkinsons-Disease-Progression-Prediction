@@ -3,7 +3,7 @@
 This project focuses on predicting the progression of Parkinson's disease using machine learning techniques. Parkinson's disease is a neurodegenerative disorder that affects movement and can have a significant impact on a person's quality of life. Early prediction of disease progression can help in better management and personalized treatment planning.
 
 
-    ![Project Logo](images/MDS-UPDRS.png)
+![Project Logo](images/MDS-UPDRS.png)
 
 ## Project Overview
 
@@ -71,7 +71,7 @@ To run this project locally, follow these steps:
 3. Run the project by executing the main ipynb file
 
 ## Dataset
-    ![Project Logo](images/dataset.jpg)
+![Project Logo](images/dataset.jpg)
 The dataset used in this project contains a collection of clinical and biomedical features of patients diagnosed with Parkinson's disease. Each instance in the dataset represents a patient, and the target variable indicates the disease progression score.
 
 You can find the dataset at https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/data or https://drive.google.com/drive/folders/1E5avHXDpbz2h_i4jM1nn-6o7hYJOXbw-?usp=sharing. Download the dataset and place it in the `data/` directory before running the project.
@@ -80,17 +80,17 @@ You can find the dataset at https://www.kaggle.com/competitions/amp-parkinsons-d
 
 Provide an overview of the results obtained from the trained model. Include key performance metrics such as accuracy, precision, recall, or any domain-specific evaluation metrics that are relevant to Parkinson's disease progression prediction.
 
+![Project Logo](images/train_1/p1_0_smape.png)
+![Project Logo](images/train_1/p1_6_smape.png)
+![Project Logo](images/train_1/p1_12_smape.png)
+![Project Logo](images/train_1/p1_24_smape.png)
 
-    ![Project Logo](images/train_1/p1_0_smape.png)
-    ![Project Logo](images/train_1/p1_6_smape.png)
-    ![Project Logo](images/train_1/p1_12_smape.png)
-    ![Project Logo](images/train_1/p1_24_smape.png)
+#### Fine Tune Result
+![Project Logo](images/fine_tune/p1_0_smape.png)
+![Project Logo](images/fine_tune/p1_6_smape.png)
+![Project Logo](images/fine_tune/p1_12_smape.png)
+![Project Logo](images/fine_tune/p1_24_smape.png)
 
-    <h4> Fine Tune Result </h4>
-    ![Project Logo](images/fine_tune/p1_0_smape.png)
-    ![Project Logo](images/fine_tune/p1_6_smape.png)
-    ![Project Logo](images/fine_tune/p1_12_smape.png)
-    ![Project Logo](images/fine_tune/p1_24_smape.png)
 
 
 ## Contributing
