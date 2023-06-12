@@ -46,11 +46,11 @@ The project involves the following steps:
 5. **Model Evaluation**: Evaluate the trained models using appropriate evaluation metrics and techniques, such as cross-validation or holdout validation, to assess their performance and generalization ability.
     Evaluation Metrics: We employ appropriate evaluation metrics that reflect the specific goals and requirements of Parkinson's disease progression prediction. Commonly used metrics for regression tasks include:
 
-        Mean Squared Error (MSE): Measures the average squared difference between the predicted and actual values, giving higher weights to larger errors.
-        Root Mean Squared Error (RMSE): The square root of the MSE, providing a metric in the same scale as the target variable.
-        Mean Absolute Error (MAE): Calculates the average absolute difference between the predicted and actual values, providing a metric in the original scale.
-        R-squared (R^2) Score: Indicates the proportion of variance in the target variable that can be explained by the model, with higher values indicating better fit.
-        Symmetric Mean Absolute Percentage Error (SMAPE): Is an evaluation metric used to measure the accuracy of a forecasting or regression model. It calculates the percentage difference between the predicted and actual values, taking into account the scale of the data.
+    Mean Squared Error (MSE): Measures the average squared difference between the predicted and actual values, giving higher weights to larger errors.
+    Root Mean Squared Error (RMSE): The square root of the MSE, providing a metric in the same scale as the target variable.
+    Mean Absolute Error (MAE): Calculates the average absolute difference between the predicted and actual values, providing a metric in the original scale.
+    R-squared (R^2) Score: Indicates the proportion of variance in the target variable that can be explained by the model, with higher values indicating better fit.
+    Symmetric Mean Absolute Percentage Error (SMAPE): Is an evaluation metric used to measure the accuracy of a forecasting or regression model. It calculates the percentage difference between the predicted and actual values, taking into account the scale of the data.
 
     Cross-Validation: To ensure robust evaluation, we employ techniques like k-fold cross-validation. This involves dividing the dataset into k equal-sized folds and performing training and evaluation k times, each time using a different fold as the test set and the remaining folds as the training set. Cross-validation helps estimate the model's performance on unseen data and mitigates the impact of data partitioning.
 
