@@ -85,6 +85,7 @@ Provide an overview of the results obtained from the trained model. Include key 
 ![Project Logo](images/train_1/p1_12_smape.png)
 ![Project Logo](images/train_1/p1_24_smape.png)
 
+
 #### Fine Tune Result
 ![Project Logo](images/fine_tune/p1_0_smape.png)
 ![Project Logo](images/fine_tune/p1_6_smape.png)
@@ -92,6 +93,13 @@ Provide an overview of the results obtained from the trained model. Include key 
 ![Project Logo](images/fine_tune/p1_24_smape.png)
 
 
+#### Mean meansure result
+<p>Symmetric Mean Absolute Percentage Error (SMAPE)</p>
+![Project Logo](images/mean.png)
+<p>R-squared (R^2) Score</p>
+![Project Logo](images/mean_r2.png)
+#### Time training
+![Project Logo](images/time_execute.png)
 
 ## Contributing
 
