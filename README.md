@@ -95,9 +95,13 @@ Provide an overview of the results obtained from the trained model. Include key 
 
 #### Mean meansure result
 <p>Symmetric Mean Absolute Percentage Error (SMAPE)</p>
+
 ![Project Logo](images/mean.png)
+
 <p>R-squared (R^2) Score</p>
+
 ![Project Logo](images/mean_r2.png)
+
 #### Time training
 ![Project Logo](images/time_execute.png)
 
